@@ -19,6 +19,7 @@
 		6B2079622957C6F500F4428A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B2079642957C6F600F4428A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B2079672957C6F600F4428A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B20796E2957C93B00F4428A /* CD-Training.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CD-Training.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		6B20795F2957C6F500F4428A /* CD-Training */ = {
 			isa = PBXGroup;
 			children = (
+				6B20796E2957C93B00F4428A /* CD-Training.entitlements */,
 				6B2079602957C6F500F4428A /* CD_TrainingApp.swift */,
 				6B2079622957C6F500F4428A /* ContentView.swift */,
 				6B2079642957C6F600F4428A /* Assets.xcassets */,
@@ -264,9 +266,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CD-Training/CD-Training.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CD-Training/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Z37YX7MXH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,9 +296,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CD-Training/CD-Training.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CD-Training/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Z37YX7MXH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
